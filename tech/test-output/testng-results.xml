@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser opened]]>
+    </line>
+    <line>
+      <![CDATA[login successful]]>
+    </line>
+    <line>
+      <![CDATA[address updated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-03T11:43:18Z" name="Default suite" finished-at="2024-03-03T11:43:40Z" duration-ms="21522">
+    <groups>
+      <group name="smoke">
+        <method signature="updateAddressTest.updateAddress()[pri:0, instance:testscripts.updateAddressTest@54504ecd]" name="updateAddress" class="testscripts.updateAddressTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-03T11:43:18Z" name="Default test" finished-at="2024-03-03T11:43:40Z" duration-ms="21522">
+      <class name="testscripts.updateAddressTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscripts.updateAddressTest@54504ecd]" started-at="2024-03-03T11:43:18Z" name="openBrowser" finished-at="2024-03-03T11:43:28Z" duration-ms="9598" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscripts.updateAddressTest@54504ecd]" started-at="2024-03-03T11:43:28Z" name="login" finished-at="2024-03-03T11:43:34Z" duration-ms="6502" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="updateAddress()[pri:0, instance:testscripts.updateAddressTest@54504ecd]" started-at="2024-03-03T11:43:34Z" name="updateAddress" finished-at="2024-03-03T11:43:40Z" duration-ms="5381" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[address updated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscripts.updateAddressTest@54504ecd]" started-at="2024-03-03T11:43:40Z" name="logout" finished-at="2024-03-03T11:43:40Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closerowser()[pri:0, instance:testscripts.updateAddressTest@54504ecd]" started-at="2024-03-03T11:43:40Z" name="closerowser" finished-at="2024-03-03T11:43:40Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closerowser -->
+      </class> <!-- testscripts.updateAddressTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
